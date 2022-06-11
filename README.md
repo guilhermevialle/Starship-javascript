@@ -2,4 +2,4 @@
 
 ### Demo
 
-![](https://github.com/guilhermevialle/Starship-javascript/blob/main/rec/starshipreview.mp4)
+![Demo-in-game]("./rec/ezgif.com-gif-maker.gif")
