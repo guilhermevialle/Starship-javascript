@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  img {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+
+  .game {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/originals/81/0d/7f/810d7f716a950a63a9c0dba6aacb1a73.gif);
+
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+
+    .score {
+      color: #dfff;
+      font-size: 6vmin;
+      text-transform: uppercase;
+
+      font-weight: bolder;
+      position: absolute;
+      right: 4%;
+
+      top: 4%;
+    }
+
+    .impact {
+      width: 65px;
+      position: absolute;
+    }
+
+    .gameover {
+      width: 50%;
+      position: absolute;
+      left: 25%;
+
+      display: none;
+    }
+
+    .enemy {
+      position: absolute;
+      width: 100px;
+      bottom: 100%;
+
+      animation: enemyAttack 4s linear infinite;
+    }
+
+    .fire {
+      width: 15px;
+      position: absolute;
+      bottom: 80px;
+    }
+
+    .player {
+      width: 80px;
+      position: absolute;
+      bottom: 0;
+
+      right: 50%;
+    }
+  }
+}
+
+.fired {
+  animation: fired 0.5s linear;
+}
+
+@keyframes fired {
+  from {
+  }
+  to {
+    bottom: 100%;
+  }
+}
+
+@keyframes enemyAttack {
+  from {
+  }
+  to {
+    bottom: 0;
+  }
+}
