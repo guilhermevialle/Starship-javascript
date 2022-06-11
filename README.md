@@ -2,4 +2,4 @@
 
 ### Demo
 
-![](https://github.com/guilhermevialle/Starship-javascript/blob/main/rec/starshipreview.mov)
+![](https://github.com/guilhermevialle/Starship-javascript/blob/main/rec/starshipreview.mp4)
